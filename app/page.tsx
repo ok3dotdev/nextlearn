@@ -33,6 +33,7 @@ export default function Page() {
           <Image
             src="/hero-desktop.png"
             width={1000}
+            priority
             height={760}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
@@ -40,6 +41,7 @@ export default function Page() {
           <Image
             src="/hero-mobile.png"
             width={560}
+            priority
             height={620}
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing desktop version"
